@@ -13,7 +13,7 @@ body
 }
 .skills{
 	background-color: #eeeded;
-	height: 350px;
+	height: 415px;
 	font-family: 'Merriweather Sans', sans-serif;
 	color:black;
 
@@ -50,20 +50,65 @@ body
 .dots{
 	display: inline-block;
 }
-.cytatSekcja{
+.sekcjaCytat{
 	width: 100%;
 	background-color: #4988af;
 	font-size: 2.5rem;
 	font-family: 'Indie Flower', cursive;
 }
+.sekcjaGra{
+	width: 100%;
+	background-color: #60727c;
+	font-size: 1.3rem;
+	padding-top: 15px;
+	padding-bottom:15px;
+}
+.linkGra{
+	color:#b0e2fb;
+	text-decoration: none;
+	font-size: 1.5rem;
+}
+.nazwaGra{
+	font-style: italic;
+}
+.linkGra:hover{
+	color:#5cc9ff;
+	text-decoration: none;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	color:#5cc9ff;
+	text-decoration: none;
+}
+.sekcjaInfo{
+	width: 100%;
+	background-color: #15b6a9;
+	font-size: 1.2rem;
+	letter-spacing: 0.3px;
+}
+footer{
+	background-color: #2F3336;
+	font-size: 1.4rem;
+}
 @media (max-width: 1120px){
 .skills{
-	height:550px;
+	height:615px;
 	}
 }
 @media (max-width: 607px){
 	.skills{
-		height:720px;
+		height:825px;
 		}
 	}
 
+@media (max-width: 1208px ) and (min-width: 770px){
+	.sekcjaGra{
+		font-size: 1rem;
+	}
+	.linkGra{
+		font-size: 1.2rem;
+	}
+}

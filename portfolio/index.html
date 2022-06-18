@@ -23,7 +23,7 @@
 	
 </head>
 
-<body>
+<body onload="zmienslajd()">
 
 	<header class="headerMain h5 p-4 m-0">
 		<span class="font-weight-bold">Witam</span>, nazywam się Dawid i jestem młodym początkującym programistą Front-end. Moja pasja do progamowania zaczeła się parę lat temu i przez cały ten czas ją rozwijam.
@@ -33,7 +33,7 @@
 			<main class="skills col-md-12">
 				<header class="headerSkills h4 text-center pt-1">Moje umiejętności</header>
 				<div class="skill py-1">
-					<div class="h5 skillText font-weight-bold">Html</div>
+					<div class="h5 skillText font-weight-bold pt-1">Html</div>
 					<div class="dots">
 						<div class="dotFilled"></div>
 						<div class="dotFilled"></div>
@@ -43,7 +43,7 @@
 					</div>
 				</div>
 				<div class="skill py-1">
-					<div class="h5 skillText font-weight-bold">CSS</div>
+					<div class="h5 skillText font-weight-bold pt-1">CSS</div>
 					<div class="dots">
 						<div class="dotFilled"></div>
 						<div class="dotFilled"></div>
@@ -53,7 +53,7 @@
 					</div>
 				</div>
 				<div class="skill py-1">
-					<div class="h5 skillText font-weight-bold">JavaSrcpit</div>
+					<div class="h5 skillText font-weight-bold pt-1">JavaSrcpit</div>
 					<div class="dots">
 						<div class="dotFilled"></div>
 						<div class="dotFilled"></div>
@@ -63,7 +63,7 @@
 					</div>
 				</div>
 				<div class="skill py-1">
-					<div class="h5 skillText font-weight-bold">Bootstrap</div>
+					<div class="h5 skillText font-weight-bold pt-1">Bootstrap</div>
 					<div class="dots">
 						<div class="dotFilled"></div>
 						<div class="dotFilled"></div>
@@ -73,7 +73,7 @@
 					</div>
 				</div>
 				<div class="skill py-1">
-					<div class="h5 skillText font-weight-bold">Wordpress</div>
+					<div class="h5 skillText font-weight-bold pt-1">Wordpress</div>
 					<div class="dots">
 						<div class="dotFilled"></div>
 						<div class="dot"></div>
@@ -83,7 +83,7 @@
 					</div>
 				</div>
 				<div class="skill py-1">
-					<div class="h5 skillText font-weight-bold">PHP</div>
+					<div class="h5 skillText font-weight-bold pt-1">PHP</div>
 					<div class="dots">
 						<div class="dotFilled"></div>
 						<div class="dot"></div>
@@ -93,7 +93,7 @@
 					</div>
 				</div>
 				<div class="skill py-1">
-					<div class="h5 skillText font-weight-bold">MySQL</div>
+					<div class="h5 skillText font-weight-bold pt-1">MySQL</div>
 					<div class="dots">
 						<div class="dotFilled"></div>
 						<div class="dot"></div>
@@ -102,11 +102,34 @@
 						<div class="dot"></div>
 					</div>
 				</div>
+				<div class="skill py-1">
+					<div class="h5 skillText font-weight-bold ">GitHub</div>
+					<div class="dots">
+						<div class="dotFilled"></div>
+						<div class="dot"></div>
+						<div class="dot"></div>
+						<div class="dot"></div>
+						<div class="dot"></div>
+					</div>
 			</main>
-			<section class="cytatSekcja">
-				<div class="cytat d-inline-block col-md-7 text-center align-middle ml-md-5 f">If it was easy everyone would do it</div>
-				<div class="photo col-md-2 d-inline-block"><img class="img-fluid"src="img/dawid.jpg"></div>
+			<section class="sekcjaCytat">
+				<div class="cytat d-inline-block col-md-7 text-center align-middle ml-md-5 ">If it was easy everyone would do it</div>
+				<div class="photo col-md-2 d-inline-block"><img class="img-fluid my-2"src="img/dawid.jpg" alt="Autor"></div>
 			</section>
+			<section class="sekcjaGra">
+				<div class="photo col-md-5 d-inline-block my-2" id="slider"><img class="img-fluid"src="img/slajd1.png" alt="slajd"></div>
+				<div class="textGra d-inline-block col-md-6 text-center align-middle ml-md-5 f">Pracowałem nad projektem gry komputerowej o nazwie <span class="nazwaGra">Miasto Światła</span>. Praca nad tą grą była bardzo angażująca i czasochłonna, dzięki niej dowiedziałem się więcej o pracy w zespole nad danym projektem oraz nauczyła mnie dużej wytrwałości. Gra opowiada historie podróżnika, który poprzez awarię systemu znalazł się w Gorlicach z różnych epok czasowych. Więcej na temat tej gry można przeczytać w tym <a class="linkGra"href="https://gorlice24.pl/pl/19_wiadomosci-z-regionu/12037_gorlice-w-swiecie-grand-theft-auto-nieto-gra-miasto-swiatla-foto-wideo-.html?fbclid=IwAR0f2wkj-E-bup5oR_F8-zL1klxk87sTki8waTQXZ6GGduS8edRZCzif7YA" target="_blank">artykule</a> </div>
+			</section>
+			<section class="sekcjaInfo">
+				<div class="cytat d-inline-block col-md-12 text-center align-middle mb-5 pb-5 pt-2"><header class="h2 font-weight-bold pt-5">Coś więcej o mnie</header>Nazywam się Dawid Cisek. Mam 15 lat i jestem młodym ambitym programistą front-end. Jestem w 1 klasie na profilu programistycznym.Szukam osób, które z chęcią pomogły by mi w drodze zostania pełnoprawnym programistą. Jeżeli chcesz widzieć więcej moich projektów to możesz zobaczyć na mojego githuba.</div>
+			</section>
+			<footer class="col-md-12">
+				<div class="cytat d-inline-block col-md-5 text-center align-middle my-md-5 mb-2 mt-3 d-inline-block">Obok znajdują się więcej informaci o tym jak można sie ze mną skontaktować lub zobaczyć moje inne prace.</div>
+				<div class="cytat d-inline-block col-md-6 text-center align-middle my-md-5 mt-2 mb-4 mx-auto d-inline-block ">
+					<div>E-mail: dawidcisek71@wp.pl</div>
+					<div class="py-2"><a href="https://github.com/Dawider30" target="_blank">Github</a></div>
+				</div>
+			</footer>
 		</div>
 	</div>
 		
@@ -119,6 +142,46 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	
 	<script src="js/bootstrap.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	  
+	<script type="text/javascript">
+	
+	   var numer = Math.floor(Math.random()*8)+1;
+	   
+	   var timer1 = 0;
+	   var timer2 = 0;
+	   
+	   function ustawslajd(nrslajdu)
+	   {
+		  clearTimeout(timer1);
+		  clearTimeout(timer2);
+		  numer = nrslajdu-1;
+		  
+		  schowaj();
+		  
+		  setTimeout("zmienslajd()",500);
+	   }
+	   
+	   function schowaj()
+	   {
+		  $("#slider").fadeOut(500);
+	   }
+	
+	   function zmienslajd()
+	   {
+		  numer++;if(numer>8) numer=1;
+		  
+		  var plik = "<img class='img-fluid my-2' src =\"img/slajd"+numer+".png\" alt='Autor' />"
+		  
+		  document.getElementById("slider").innerHTML = plik;
+		  $("#slider").fadeIn(500);
+		  
+		  timer1 = setTimeout("zmienslajd()",15000);
+		  timer2 = setTimeout("schowaj()",14500);
+		  
+	   }
+		  
+	</script>
 	
 </body>
 </html>
